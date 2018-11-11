@@ -1,0 +1,26 @@
+QPushButton:!hover { 
+background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+color: black;
+font-weight:normal;
+padding-left: 0px;
+border-radius: 5px;
+font-size:10px;
+}
+
+QPushButton:hover:!pressed { 
+background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+color: white;
+font-weight:bold;
+padding-left: 0px;
+border-radius: 5px;
+font-size:10px;
+}
+
+QPushButton:hover:pressed { 
+background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+color: yellow;
+font-weight:bold;
+padding-left: 0px;
+border-radius: 5px;
+font-size:10px;
+}

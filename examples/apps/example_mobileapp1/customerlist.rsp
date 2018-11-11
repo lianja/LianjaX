@@ -1,0 +1,43 @@
+<%@ Language=VFP %>
+<html>
+<head>
+<%
+private m_libpath
+if isPhoneGap() 
+	m_libpath = "library"
+elseif isElectron()
+	m_libpath = iif(isElectronDebug(), "file:///library", "file:///resources/app.asar/library")
+else
+	m_libpath = "../../library"
+endif
+? "<link rel='stylesheet' href='&m_libpath/bootstrap/css/bootstrap.min.css' type='text/css'/>"
+%>
+<style type='text/css'>
+body {
+	margin:10px;
+}
+</style>
+</head>
+<body>
+<%
+text raw
+<script>
+window.Lianja = window.parent.Lianja;
+function editCustomer(companyname)
+{
+	companyname = companyname.replace(/%27/g, "'");
+	Lianja.showDocument("page:customers?action=search&text="+companyname);
+	Lianja.hideDialogPanel();
+};
+</script>
+endtext
+	save datasession
+	open database southwind
+	use customers
+	list html off ;
+		fields companyname,contactname ;  
+		onclick "companyname","editCustomer('{}')"
+	restore datasession
+%>
+</body>
+</html>

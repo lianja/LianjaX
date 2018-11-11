@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+<set-property name="apptitle" value="Company Business Overview" />
+<set-property name="appsidebarcategory" value="2,Demo Dynamic Tiles" />
+<set-property name="appsidebarcaption" value="Sales this year" />
+<set-property name="appsidebaricon" value=":/images/recital_icon_32x32" />
+<set-property name="appwidth" value="0" />
+<set-property name="appheight" value="0" />
+<set-property name="appresizable" value="1" />
+<set-property name="appmaximize" value="0" />
+<set-property name="runtimeconnstr" value="" />
+<set-property name="apploginrequired" value="1" />
+<set-property name="appenableexternal" value="0" />
+<set-property name="appserverlocation" value="" />
+<set-property name="appservertype" value="" />
+<set-property name="appserveruser" value="" />
+<set-property name="appserverdatabase" value="" />
+<set-property name="appserverpassword" value="" />
+<set-property name="addblankformsection" value="false" />
+<set-property name="hideheaderbar" value="true" />
+<set-property name="customlibrary" value="" />
+<set-property name="htmleditor" value="Desktop" />
+<set-property name="apptilebackcolor" value="#ffffffff" />
+<set-property name="scriptinglanguage" value="Recital" />
+<set-property name="apppublished" value="true" />
+<set-property name="uistatestable" value="" />
+<set-property name="uirulestable" value="" />
+<set-property name="helptable" value="" />
+<set-property name="permadmin" value="" />
+<set-property name="permcreate" value="" />
+<set-property name="permread" value="" />
+<set-property name="permupdate" value="" />
+<set-property name="permdelete" value="" />
+<set-property name="appauthor" value="Lianja Inc." />
+<set-property name="appversion" value="1.0" />
+<set-property name="appdescription" value="Company business\noverview\nsales by month" />
+<set-property name="initaction" value="" />
+<set-property name="destroyaction" value="" />
+<set-property name="loadaction" value="" />
+<set-property name="unloadaction" value="" />
+<set-property name="timeraction" value="businessoverviewyear_timer&#40;&#41;" />
+<set-property name="timerinterval" value="5" />
+<set-property name="desktopui" value="true" />
+<set-property name="webui" value="true" />
+<set-property name="mobileui" value="true" />
+<set-property name="theme" value="Default" />
+<set-property name="webtheme" value="default" />
+<set-property name="mobiletheme" value="default" />
+<set-property name="apptiledynamiccontents" value="true" />
+<set-property name="apptilesize" value="2x2" />
+<set-property name="apptileorder" value="0" />
+<set-property name="apptileurl" value="" />
+<menubutton>
+    <set-property name="pageid" value="main" />
+    <set-property name="caption" value="Main" />
+</menubutton>
+<page>
+    <set-property name="id" value="main" />
+    <set-property name="title" value="Main" />
+    <set-property name="backcolor" value="#ffffffff" />
+    <set-property name="forecolor" value="#000000ff" />
+    <set-property name="pagegradient" value="false" />
+    <set-property name="pagegradienttype" value="0" />
+    <set-property name="pagefromcolor" value="#fafafaff" />
+    <set-property name="pagetocolor" value="#c0c0c0ff" />
+    <set-property name="searchboxminchars" value="609519876" />
+    <set-property name="headerbackcolor" value="#eeeeeeff" />
+    <set-property name="headerforecolor" value="#ffffffff" />
+    <set-property name="navigationpanelcollapseonload" value="false" />
+    <set-property name="navigationpanelcollapsable" value="false" />
+    <set-property name="headerfromcolor" value="#c8c8c8ff" />
+    <set-property name="headertocolor" value="#000000ff" />
+    <set-property name="marginsize" value="0" />
+    <set-property name="hidecustomsearchicon" value="true" />
+    <set-property name="hidefullscreenicon" value="false" />
+    <set-property name="hidenotificationicon" value="false" />
+    <set-property name="hideshareicon" value="true" />
+    <set-property name="hidehomeicon" value="false" />
+    <set-property name="showoptionsbutton" value="false" />
+    <set-property name="headerbottomborder" value="true" />
+    <set-property name="fullpageedit" value="false" />
+    <set-property name="headerborderbottomcolor" value="#ffa500ff" />
+    <set-property name="leftsidebartreecaptionheight" value="26" />
+    <set-property name="leftsidebarbackcolor" value="#f9f9f9ff" />
+    <set-property name="leftsidebarforecolor" value="#000000ff" />
+    <set-property name="leftsidebarbordercolor" value="#e0ecffff" />
+    <set-property name="rightsidebarbackcolor" value="#f9f9f9ff" />
+    <set-property name="rightsidebarforecolor" value="#000000ff" />
+    <set-property name="rightsidebarbordercolor" value="#e0ecffff" />
+    <set-property name="alwayssaveinpagelibrary" value="false" />
+    <set-property name="querymode" value="false" />
+    <set-property name="leftsidebarimagevisible" value="false" />
+    <set-property name="hideheadericon" value="false" />
+    <set-property name="hidesearchbox" value="false" />
+    <set-property name="timerinterval" value="0" />
+    <set-property name="stretch" value="false" />
+    <set-property name="stretchlastsectionatruntime" value="false" />
+    <set-property name="scrollbarvisibleatruntime" value="true" />
+    <set-property name="stretchlastsectionminheight" value="0" />
+    <set-property name="usescrollbarminheight" value="0" />
+    <set-property name="headervisible" value="true" />
+    <set-property name="headerheight" value="40" />
+    <set-property name="headercaption" value="Business Overview" />
+    <set-property name="refreshwhenactivated" value="false" />
+    <set-property name="headergradient" value="true" />
+    <set-property name="headergradienttype" value="5" />
+    <set-property name="leftsidebarvisible" value="true" />
+    <set-property name="leftsidebartreevisible" value="false" />
+    <set-property name="leftsidebartreewidth" value="240" />
+    <set-property name="leftsidebartreerowheight" value="0" />
+    <set-property name="leftsidebartreeshowchildindicators" value="false" />
+    <set-property name="leftsidebartreedoubleclick" value="true" />
+    <set-property name="leftsidebartreealternatingcolors" value="true" />
+    <set-property name="leftsidebartreegridlines" value="false" />
+    <set-property name="navtreeactionbarvisible" value="false" />
+    <set-property name="leftsidebartreecaptionvisible" value="false" />
+    <set-property name="navigationpanelposition" value="Left" />
+    <set-property name="leftsidebartreeselectioncolumn" value="0" />
+    <set-property name="leftsidebartreecaption" value="Navigation Panel" />
+    <set-property name="leftsidebartreefontsize" value="0" />
+    <set-property name="rightsidebarvisible" value="false" />
+    <set-property name="hideactionbaratruntime" value="false" />
+    <set-property name="syncactionbar" value="true" />
+    <set-property name="leftsidebarloginpanelvisible" value="true" />
+    <set-property name="leftsidebarappsvisible" value="false" />
+    <set-property name="leftsidebarwidth" value="240" />
+    <set-property name="rightsidebarwidth" value="160" />
+    <set-property name="leftsidebarappsheadervisible" value="true" />
+    <set-property name="leftsidebaritemsvisible" value="true" />
+    <set-property name="leftsidebarmenuvisible" value="true" />
+    <set-property name="leftsidebarfavoriteitems" value="0" />
+    <set-property name="leftsidebarrecentlyvieweditems" value="20" />
+    <set-property name="leftsidebarrecentlymodifieditems" value="20" />
+    <set-property name="leftsidebarwatcheditems" value="0" />
+    <set-property name="leftsidebarrefreshinterval" value="0" />
+    <set-property name="rightsidebarcustomgadgetvisible" value="false" />
+    <set-property name="rightsidebarcustomgadgetexpanded" value="false" />
+    <set-property name="rightsidebarcustomgadgetcaption" value="Untitled" />
+    <set-property name="rightsidebarcustomgadgetheight" value="200" />
+    <set-property name="rightsidebarcustomgadgetrefreshinterval" value="0" />
+    <set-property name="rightsidebarcustomgadgetstretch" value="false" />
+    <set-property name="rightsidebarcontentinterval1" value="0" />
+    <set-property name="rightsidebarcontentinterval2" value="0" />
+    <set-property name="rightsidebarcontentinterval3" value="0" />
+    <set-property name="rightsidebarcontentinterval4" value="0" />
+    <set-property name="rightsidebarcontentvisible1" value="true" />
+    <set-property name="rightsidebarcontentvisible2" value="true" />
+    <set-property name="rightsidebarcontentvisible3" value="true" />
+    <set-property name="rightsidebarcontentvisible4" value="true" />
+    <set-property name="rightsidebarcontentexpanded1" value="true" />
+    <set-property name="rightsidebarcontentexpanded2" value="true" />
+    <set-property name="rightsidebarcontentexpanded3" value="true" />
+    <set-property name="rightsidebarcontentexpanded4" value="true" />
+    <set-property name="rightsidebarcontentheight1" value="140" />
+    <set-property name="rightsidebarcontentheight2" value="140" />
+    <set-property name="rightsidebarcontentheight3" value="140" />
+    <set-property name="rightsidebarcontentheight4" value="140" />
+    <set-property name="transparency" value="0" />
+    <set-property name="accordionatruntime" value="false" />
+    <set-property name="useaccordiononlowres" value="false" />
+    <set-property name="useaccordiononlowresvalue" value="0" />
+    <set-property name="accordionstackatruntime" value="false" />
+    <set-property name="collapseleftsidebar" value="false" />
+    <set-property name="collapserightsidebar" value="false" />
+    <set-property name="hidefrommenuatruntime" value="false" />
+    <set-property name="menuicon" value=":/images/forms" />
+    <set-property name="scriptinglanguage" value="Inherit" />
+    <set-property name="footervisible" value="false" />
+    <set-property name="footerheight" value="40" />
+    <set-property name="footercustomgadgetrefreshinterval" value="0" />
+    <set-property name="footergradient" value="false" />
+    <set-property name="footergradienttype" value="1" />
+    <set-property name="footerbackcolor" value="#f9f9f9ff" />
+    <set-property name="footerforecolor" value="#000000ff" />
+    <set-property name="footerfromcolor" value="#2b2b2bff" />
+    <set-property name="footertocolor" value="#212121ff" />
+    <set-property name="swipenavigation" value="false" />
+    <set-property name="gesturesenabled" value="false" />
+    <set-property name="pagetransition" value="None" />
+    <set-property name="desktopui" value="true" />
+    <set-property name="webui" value="true" />
+    <set-property name="tabletui" value="true" />
+    <set-property name="mobileui" value="true" />
+    <set-property name="applyrulesonchange" value="false" />
+    <set-property name="tilecategory" value="Select a Page" />
+    <set-property name="tilesize" value="1x1" />
+    <set-property name="tilebackcolor" value="#1c1c1c" />
+    <set-property name="tileforecolor" value="#ffffff" />
+</page>
+</app>

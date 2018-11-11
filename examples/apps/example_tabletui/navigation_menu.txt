@@ -1,0 +1,20 @@
+^EMPLOYEES#DARKGRAY
+Employee List#app:/cat_contacts_sm#employees.catalogview
+Information#app:/cat_business_sm.png#employees.section1
+Notes#app:/cat_arts_photography_sm#employees.section2
+Documents#app:/cat_internet_sm#employees.section4
+Appointments#app:/cat_events_sm#employees.section5
+^CUSTOMERS#DARKGRAY
+Customers#app:/cat_contacts_sm#customers.section1
+Orders#app:/cat_finance_sm#customers.section2
+Order Details#app:/cat_travel_sm#customers.section3
+
+
+
+
+
+
+
+
+
+

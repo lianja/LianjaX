@@ -1,0 +1,16 @@
+[pages]
+page1_labels=
+linecharts_labels=
+gantchart_labels=
+piechart_labels=
+bipolarchart_labels=
+funnelchart_labels=
+radarchart_labels=
+rosechart_labels=
+radialscatterchart_labels=
+scatterchart_labels=
+thermometerchart_labels=
+verticalprogressbar_labels=
+waterfallchart_labels=
+horizontalprogressbar_labels=
+customchart_labels=

@@ -1,0 +1,69 @@
+//
+// Visage custom section for gadget ""
+//
+define class  as gadget
+	proc init()
+		// place your section "init" code here
+	endproc
+
+	proc add()
+		// place your section "add" code here
+	endproc
+
+	proc delete()
+		// place your "delete" code here
+	endproc
+
+	proc top()
+		// place your goto "top" here
+	endproc
+
+	proc previous()
+		// place your move "previous" code here
+	endproc
+
+	proc next()
+		// place your move "next" code here
+	endproc
+
+	proc bottom()
+		// place your goto "bottom" code here
+	endproc
+
+	proc watch()
+		// place your "watch" code here
+	endproc
+
+	proc refresh()
+		// place your "refresh" code here
+	endproc
+
+	proc edit()
+		// place your "edit" code here
+	endproc
+
+	proc search()
+		// place your "search" code here
+	endproc
+
+	proc relatedata()
+		// place your "relate" code here
+	endproc
+enddefine
+
+proc  
+	 = createobject("")
+	// 
+	// Create your section UI from the application framework classes here
+	// 
+	// e.g. to add a tabbed section:
+	// 
+	// .addobject("tabs", "pageframe")
+	// tabs.addobject("tab1", "page")
+	// tab1.caption = "Customers"
+	// tabs.addobject("tab2", "page")
+	// tab2.caption = "Orders"
+	// tabs.addobject("tab3", "page")
+	// tab3.caption = "Shippers"
+	// 
+return 

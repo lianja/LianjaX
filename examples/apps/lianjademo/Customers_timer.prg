@@ -1,0 +1,6 @@
+////////////////////////////////////////////////////////////////
+// Event delegate for 'timer' event
+proc Customers_timer()
+	// insert your code here 
+endproc
+

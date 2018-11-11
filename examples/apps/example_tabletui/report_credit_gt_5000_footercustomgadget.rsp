@@ -1,0 +1,12 @@
+<%@ Language=Recital %>
+<html>
+<body>
+<%
+	?? "<center>This an custom footer example on " + tran(date()) + " at " + time() + "</center>"
+%>
+</body>
+</html>
+
+
+
+

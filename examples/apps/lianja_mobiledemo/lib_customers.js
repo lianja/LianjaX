@@ -1,0 +1,6 @@
+////////////////////////////////////////////////////////////////
+// Event delegate for 'ready' event
+function customers_ready()
+{
+	// insert your code here
+};

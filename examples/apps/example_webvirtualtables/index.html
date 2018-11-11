@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+<meta name='google' content='notranslate'>
+<meta name='mobile-web-app-capable' content='yes'>
+<meta name='apple-mobile-web-app-capable' content='yes'>
+<meta name='apple-mobile-web-app-title' content=''>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name='format-detection' content='telephone=no' />
+<meta name='msapplication-tap-highlight' content='no' />
+<meta http-equiv='Content-Security-Policy' />
+<style type='text/css'>
+body {
+-webkit-user-select: initial !important;
+-moz-user-select: initial !important;
+-ms-user-select: text !important;
+-o-user-select: initial !important;
+user-select: initial !important;
+}
+</style>
+<link rel='stylesheet' href='../../../library/bootstrap/css/bootstrap.min.css?_v=5.0Beta26.1' media='screen' type='text/css'/>
+<link rel='stylesheet' href='../../../library/bootstrap-datetimepicker2/css/bootstrap-datetimepicker.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/LianjaWebFramework/LianjaHtmlClient.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/flexigrid/css/flexigrid.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/datepicker/css/datepicker.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/pnotify/jquery.pnotify.default.css?_v=5.0Beta26.1' media='all' type='text/css'/>
+<link rel='stylesheet' href='../../../library/pnotify/jquery.pnotify.default.icons.css?_v=5.0Beta26.1' media='all' type='text/css'/>
+<link rel='stylesheet' href='../../../library/pnotify/oxygen/icons.css?_v=5.0Beta26.1' media='all' type='text/css'/>
+<link rel='stylesheet' href='../../../library/owl-carousel/owl.carousel.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/owl-carousel/owl.theme.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/mini-upload-form/assets/css/style.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/jquery.autosuggestions/jquery.inputpicker.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/jquery-contextmenu/dist/jquery.contextMenu.min.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<link rel='stylesheet' href='../../../library/printjs/dist/print.min.css?_v=5.0Beta26.1-1541661286087' type='text/css'/>
+<script type='text/javascript' src='../../../library/jquery-1.10.2/jquery-1.10.2.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/jquery-1.8.3/jquery-ui-1.8.21.custom.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/backbone/underscore-min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/underscore.string/underscore.string.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/LianjaWebFramework/LianjaHtmlClient.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/LianjaWebFramework/LianjaSplitView.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/bootstrap/js/bootstrap.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/flexigrid/js/flexigrid.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/bootbox/bootbox.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/datepicker/js/bootstrap-datepicker.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/bootstrap-datetimepicker2/js/bootstrap-datetimepicker.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/pnotify/jquery.pnotify.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/owl-carousel/owl.carousel.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/mini-upload-form/assets/js/jquery.knob.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/mini-upload-form/assets/js/jquery.ui.widget.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/mini-upload-form/assets/js/jquery.iframe-transport.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/mini-upload-form/assets/js/jquery.fileupload.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/mini-upload-form/assets/js/script.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/jquery.inputmask/dist/jquery.inputmask.bundle.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/md5/md5.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/guid/guid.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/printjs/dist/print.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/iscroll/build/iscroll-infinite.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/jquery.autosuggestions/jquery.inputpicker.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/jquery-contextmenu/dist/jquery.ui.position.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script type='text/javascript' src='../../../library/jquery-contextmenu/dist/jquery.contextMenu.min.js?_v=5.0Beta26.1-1541661286087'></script>
+<script>
+$(document).bind('mobileinit', function() { 
+  $.support.cors = true;
+  $.mobile.loadingMessageTextVisible = true;
+  $.mobile.allowCrossDomainPages = true;
+  $.mobile.textinput.prototype.options.clearSearchButtonText = 'Reset search';
+  $.mobile.page.prototype.options.theme = 'c';
+  $.mobile.hashListeningEnabled = false;
+  $.mobile.touchOverflowEnabled = true;
+  $.extend($.mobile, { touchOverflowEnabled: true });
+});
+$(window).on('orientationchange', function(event) { 
+  Lianja.handleOrientationChange(event.orientation);
+});
+</script>
+<script>
+Lianja.verifyLoggedIn();</script>
+</head>
+<body data-lianja-targetui='web' class='ui-mobile-viewport mainbody' style='display:none;' >
+<!-- mainpage start -->
+<div class='ui-lianja-stretchlastsection ui-lianja-headervisible ui-responsive-panel ui-page ui-page-panel' data-lianja-refresh-when-activated='false' data-lianja-margin='0' data-lianja-query-form='false' data-lianja-hideheader='false' data-lianja-phone-navbar='false' data-lianja-navbar-height='0' data-lianja-stretchfixedheight='0' data-lianja-nomargin='false' data-lianja-hidenavbar='false' data-lianja-stretchlastsectionminheight='0' data-lianja-height-offset='20' data-role='page' data-dom-cache='true' data-url='page1' data-lianja-page-autolayoutlist='' data-lianja-page-sectionlist='page1-section1,page1-section2' data-lianja-uistates='' data-lianja-page-type='collapsible' data-lianja-searchkey-section='page1-section1' id='page1' data-theme='c' data-content-theme='c' data-lianja-headerheight='40' data-lianja-footerheight='0'>
+<div data-role='panel' id='page1_pagenavigationmenu' data-position='left' data-display='overlay' data-theme='a' class='ui-lianja-scrollable ui-panel ui-panel-position-left' style='overflow-y:auto;opacity:0.9 !important; top:40px;width:auto;min-width:300px;'>
+<ul data-role='listview' data-inset='false' data-theme='a' data-icon='false' data-corners='false' data-shadow='false'>
+<li data-role='list-divider' data-theme='a' data-icon='false' data-corners='false' data-shadow='false' style='font-weight:bold !important;color:white;background-color:gray;'>
+PAGE NAVIGATION</li>
+<li class='ui-lianja-permread-page1 ui-lianja-transparent-listitem-selected-left' data-corners='false' data-shadow='false' data-theme='a' data-icon='false'><a data-transition='none' href='#' onclick='Lianja.showDocument("page:page1");return false;'>page1</a></li>
+</ul>
+</div>
+<div data-role='panel' data-history='false' id='LianjaDialogPanelLeft-page1' data-swipe-close='true' data-position='left' data-display='overlay' data-theme='c' style='top:0px !important;bottom:0px !important' class='lianja-ui-dialogpanel'><div data-role='header' data-theme='a' style='border:0;margin:0 !important;'><h1 id='LianjaDialogPanelLeftHeader-page1'>Title</h1></div><div id='LianjaDialogPanelLeftContent-page1' style='position:absolute;top:40px;bottom:70px;width:100%'><p>This is a simple showDialogPanel popup</p><br></div><table id='LianjaDialogPanelLeftButtonGroup-page1' height='42px' width="100%" cellspacing="0" cellpadding="0" style="position:absolute;bottom:22px;"><tr><td width='50%' class='lianja-ui-flatbuttoncontainer'><div id='LianjaDialogPanelLeftCancelBtn-page1' class='lianja-ui-flatbutton lianja-ui-touchable' style='line-height:42px;height:42px;' onclick='Lianja.hideDialogPanel(this)' >Cancel</div></td><td width='50%' class='lianja-ui-flatbuttoncontainer'><div id='LianjaDialogPanelLeftDoneBtn-page1' class='lianja-ui-flatbutton-last lianja-ui-touchable' style='line-height:42px;height:42px;' onclick='Lianja.applyDialogPanel(this)' >Done</div></td></tr></table></div><div data-role='panel' id='LianjaDialogPanel-page1' data-swipe-close='true' data-position='right' data-display='overlay' data-theme='c' style='top:0px !important;bottom:0px !important' class='lianja-ui-dialogpanel'><div data-role='header' data-theme='a' style='border:0;margin:0 !important;'><h1 id='LianjaDialogPanelHeader-page1'>Title</h1></div><div id='LianjaDialogPanelContent-page1' style='position:absolute;top:40px;bottom:70px;width:100%'><p>This is a simple showDialogPanel popup</p><br></div><table id='LianjaDialogPanelButtonGroup-page1' height='42px' width="100%" cellspacing="0" cellpadding="0" style="position:absolute;bottom:22px;"><tr><td width='50%' class='lianja-ui-flatbuttoncontainer'><div id='LianjaDialogPanelCancelBtn-page1' class='lianja-ui-flatbutton lianja-ui-touchable' style='line-height:42px;height:42px;' onclick='Lianja.hideDialogPanel(this)' >Cancel</div></td><td width='50%' class='lianja-ui-flatbuttoncontainer'><div id='LianjaDialogPanelDoneBtn-page1' class='lianja-ui-flatbutton-last lianja-ui-touchable' style='line-height:42px;height:42px;' onclick='Lianja.applyDialogPanel(this)' >Done</div></td></tr></table></div><div data-history='false' id='LianjaPopupDialog-page1' data-corners='false' data-position-to='window' data-transition='pop' data-overlay-theme='a' data-theme='c' style='width:50%;height:50%;margin:5px !important;padding:0px !important;display:none;'><a href='' onclick='Lianja.hideDialog(this);return false;' data-role='button' data-theme='a' data-iconshadow='false' data-icon='delete' data-iconpos='notext' class='ui-btn-right' style='right: 4px;top: 4px;background-image: initial;background:transparent;'></a><div data-role='header' id='LianjaPopupDialogHeaderContainer-page1' data-corners='false' data-theme='a' style='border-top:3px;border-top-left-radius:0px;margin:0 !important;'><h1 id='LianjaPopupDialogHeader-page1' style='margin:0px !important;'></h1></div><div id='LianjaPopupDialogContent-page1' style='top: 40px;bottom: 45px;position: absolute;width: 100%;'><p>This is a simple showDialog popup</p><br></div><table id='LianjaPopupDialogButtonGroup-page1' height='42px' width="100%" cellspacing="0" cellpadding="0" style="position:absolute;bottom:0px;"><tr><td width='50%' class='lianja-ui-flatbuttoncontainer'><div id='LianjaPopupDialogCancelBtn-page1' class='lianja-ui-flatbutton lianja-ui-touchable' style='line-height:42px;height:42px;' onclick='Lianja.hideDialog(this)' >Cancel</div></td><td width='50%' class='lianja-ui-flatbuttoncontainer'><div id='LianjaPopupDialogDoneBtn-page1' class='lianja-ui-flatbutton-last lianja-ui-touchable' style='line-height:42px;height:42px;' onclick='Lianja.applyDialog(this)' >Done</div></td></tr></table></div><div data-tap-toggle='false' data-role='header' data-theme='a' data-position='fixed' data-fullscreen='false' style='height:40px !important;background:#212121;color:#ffffff;border-bottom:1px solid #ffa500;' data-id='alwaysvisible' class='ui-grid-lianja-pageheader '>
+<span class='ui-lianja-pageheader-left ui-lianja-pageheader-item' style='height:40px !important;'>
+</span>
+<span id='page1-pagetitle' data-lianja-text="Virtual Tables example" class='ui-lianja-pageheader-title' style='' class='ui-lianja-pageheader-search ui-lianja-searchpanelitem'>Virtual Tables example</span>
+<div style='position:absolute;right:227px;width:32px !important;height:32px !important;' class='ui-grid-lianja-pageheader-navbutton' align='center'><a type='button' data-ajax='false' href='' onclick='Lianja.home();return false;' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-home-white' title='Goto the App Center' style=''></a></div>
+<input id='page1-searchbox' onkeyup='Lianja.onSearchChanged("page1")' type='search' value='' data-theme='c' data-mini='true' class='ui-lianja-pageheader-search ui-lianja-searchpanelitem' /></div>
+<!-- mainpage content start -->
+<div style='top:0px !important' data-lianja-content-bottom='48px' data-lianja-content-margin='0' data-role='content' id='page1-content' data-content-padding-top-bottom='none' class='ui-lianja-content63 ui-lianja-content ui-lianja-notscrollable ui-lianja-hidescrollbar'   style='background-color:#ffffff;color:#ffffff; margin:0px !important;overflow:hidden;' >
+<!-- section start 1 -->
+<div id='page1-section1'   data-lianja-searchpanelheight='0' data-lianja-uistates='' data-lianja-contextmenu="" data-lianja-enabledonedit="false" data-lianja-orderby="" data-lianja-filter="" data-lianja-editable='false' data-lianja-uistates='' data-lianja-autoresize='true' data-lianja-gridlines='true' data-lianja-hideheader='false' data-lianja-navbar-height='48' data-lianja-query-form='false' data-lianja-stretchfixedheight='0' data-lianja-cascadedeletes='false' data-lianja-primarykey='customerid' data-lianja-hidenavbar='false' data-lianja-section-pageid='page1' data-lianja-section-type='form' data-lianja-section-searchfield='VT_CUSTOMERS.ACCOUNTNUMBER' data-lianja-section-searchfieldtype='C' data-lianja-section-parentid='' data-lianja-section-parentkeytype='' data-lianja-section-parentkeyexpr='' data-lianja-section-childkeyexpr='' data-lianja-section-childlist='' data-lianja-section-accordion='false' data-lianja-section-accordion-stack='false' data-lianja-section-no-stretch='false' data-lianja-database='cloudlibtest' data-lianja-table='vt_customers' data-lianja-section-formitemlist='page1-section1-field1,page1-section1-field2,page1-section1-field3,page1-section1-field4,page1-section1-field5,page1-section1-field6' data-inset='false' data-role='collapsible' data-theme='c' data-collapsed='false' data-corners='true' class=' lianja-ui-collapsible    ui-lianja-scrollable ui-lianja-hidescrollbar ' style='color:#000000;background-color:#f9f9f9;overflow-x:hidden;overflow-y:hidden;color:#000000;background-color:#f9f9f9;  position:relative;width:100%;' data-lianja-autoheight='false' >
+<h2 id='page1-section1-sectionheader'  data-lianja-sectionid='page1-section1' style=''>MSSQL AdventureWorks customer table</h2><!-- section type form -->
+<!-- start of section form -->
+<div id='page1-section1-container-outerframe' data-lianja-yoffset='0' style='height:100%;width:100%;max-width:100%;'>
+<div data-barry='3' id='page1-section1-container-innerframe' style='position:relative;background-color:#f9f9f9;padding:0px;top:0px;height:100%'><!-- start of section formitems -->
+<!-- start section formitem -->
+<div style='height:2px;background-color:#f9f9f9;'></div><table  width="100%" cellspacing="0" cellpadding="0" style=';' ><tr style='height:23px;max-height:23px;border-bottom:1px solid #ffffff;border-right:1px solid #ffffff;'><td style='border-bottom:2px solid #f9f9f9;width:160px;min-width:160px;max-width:160px;' align='right'><div id='page1-section1-field1-caption'  style="line-height:23px;height:23px;background-color:#f9f9f9;color:#000000;text-align:right;">Customerid </div></td><td width='100%' style='border-bottom:2px solid #f5f5f5;white-space: nowrap;'><div title='Click to edit'  class='ui-lianja-inlineeditor ' style="white-space: nowrap;margin-left:4px;margin-right:4px;font-weight:bold;line-height:23px;height:23px;background-color:#f5f5f5;color:#000000;text-align:left;" id='page1-section1-field1'  data-lianja-formitem-choicelist='' data-lianja-formitem-dialogbutton='false' data-lianja-formitem-autosuggest='' data-lianja-formitem-autosuggestheaders='' data-lianja-formitem-autosuggestfields='' data-lianja-formitem-autosuggestcolumn='0' data-lianja-formitem-type='field' data-lianja-controlsource='vt_customers.customerid' data-lianja-maxlength='11' data-lianja-readonly='false' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field1');return false;"  onMouseOver="Lianja.showControl('page1-section1-field1-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field1-inlineediticon');return false;"     ></div></td><td width='23px' style='min-width:0px;border-bottom:2px solid #f5f5f5;background-color:#f5f5f5 !important;'><div id='page1-section1-field1-inlineediticon' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field1');return false;"  onMouseOver="Lianja.showControl('page1-section1-field1-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field1-inlineediticon');return false;"   class='ui-lianja-inlineediticon' style="display:none;line-height:23px;max-height:23px;height:23px;width:23px;max-width:23px;min-width:0px;background-color:#f5f5f5 !important;"></div></td></tr></table><!-- end section formitem --><!-- start section formitem -->
+<table  width="100%" cellspacing="0" cellpadding="0" style=';' ><tr style='height:23px;max-height:23px;border-bottom:1px solid #ffffff;border-right:1px solid #ffffff;'><td style='border-bottom:2px solid #f9f9f9;width:160px;min-width:160px;max-width:160px;' align='right'><div id='page1-section1-field2-caption'  style="line-height:23px;height:23px;background-color:#f9f9f9;color:#000000;text-align:right;">Territoryid </div></td><td width='100%' style='border-bottom:2px solid #f5f5f5;white-space: nowrap;'><div title='Click to edit'  class='ui-lianja-inlineeditor ' style="white-space: nowrap;margin-left:4px;margin-right:4px;font-weight:bold;line-height:23px;height:23px;background-color:#f5f5f5;color:#000000;text-align:left;" id='page1-section1-field2'  data-lianja-formitem-choicelist='' data-lianja-formitem-dialogbutton='false' data-lianja-formitem-autosuggest='' data-lianja-formitem-autosuggestheaders='' data-lianja-formitem-autosuggestfields='' data-lianja-formitem-autosuggestcolumn='0' data-lianja-formitem-type='field' data-lianja-controlsource='vt_customers.territoryid' data-lianja-maxlength='11' data-lianja-readonly='false' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field2');return false;"  onMouseOver="Lianja.showControl('page1-section1-field2-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field2-inlineediticon');return false;"     ></div></td><td width='23px' style='min-width:0px;border-bottom:2px solid #f5f5f5;background-color:#f5f5f5 !important;'><div id='page1-section1-field2-inlineediticon' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field2');return false;"  onMouseOver="Lianja.showControl('page1-section1-field2-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field2-inlineediticon');return false;"   class='ui-lianja-inlineediticon' style="display:none;line-height:23px;max-height:23px;height:23px;width:23px;max-width:23px;min-width:0px;background-color:#f5f5f5 !important;"></div></td></tr></table><!-- end section formitem --><!-- start section formitem -->
+<table  width="100%" cellspacing="0" cellpadding="0" style=';' ><tr style='height:23px;max-height:23px;border-bottom:1px solid #ffffff;border-right:1px solid #ffffff;'><td style='border-bottom:2px solid #f9f9f9;width:160px;min-width:160px;max-width:160px;' align='right'><div id='page1-section1-field3-caption' class='lianja-ui-searchfield-image' style="line-height:23px;height:23px;background-color:#f9f9f9;color:#000000;text-align:right;">Accountnumber </div></td><td width='100%' style='border-bottom:2px solid #f5f5f5;white-space: nowrap;'><div title='Click to edit'  class='ui-lianja-inlineeditor ' style="white-space: nowrap;margin-left:4px;margin-right:4px;font-weight:bold;line-height:23px;height:23px;background-color:#f5f5f5;color:#000000;text-align:left;" id='page1-section1-field3'  data-lianja-formitem-choicelist='' data-lianja-formitem-dialogbutton='false' data-lianja-formitem-autosuggest='' data-lianja-formitem-autosuggestheaders='' data-lianja-formitem-autosuggestfields='' data-lianja-formitem-autosuggestcolumn='0' data-lianja-formitem-type='field' data-lianja-controlsource='vt_customers.accountnumber' data-lianja-maxlength='10' data-lianja-readonly='false' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field3');return false;"  onMouseOver="Lianja.showControl('page1-section1-field3-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field3-inlineediticon');return false;"     ></div></td><td width='23px' style='min-width:0px;border-bottom:2px solid #f5f5f5;background-color:#f5f5f5 !important;'><div id='page1-section1-field3-inlineediticon' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field3');return false;"  onMouseOver="Lianja.showControl('page1-section1-field3-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field3-inlineediticon');return false;"   class='ui-lianja-inlineediticon' style="display:none;line-height:23px;max-height:23px;height:23px;width:23px;max-width:23px;min-width:0px;background-color:#f5f5f5 !important;"></div></td></tr></table><!-- end section formitem --><!-- start section formitem -->
+<table  width="100%" cellspacing="0" cellpadding="0" style=';' ><tr style='height:23px;max-height:23px;border-bottom:1px solid #ffffff;border-right:1px solid #ffffff;'><td style='border-bottom:2px solid #f9f9f9;width:160px;min-width:160px;max-width:160px;' align='right'><div id='page1-section1-field4-caption'  style="line-height:23px;height:23px;background-color:#f9f9f9;color:#000000;text-align:right;">Customertype </div></td><td width='100%' style='border-bottom:2px solid #f5f5f5;white-space: nowrap;'><div title='Click to edit'  class='ui-lianja-inlineeditor ' style="white-space: nowrap;margin-left:4px;margin-right:4px;font-weight:bold;line-height:23px;height:23px;background-color:#f5f5f5;color:#000000;text-align:left;" id='page1-section1-field4'  data-lianja-formitem-choicelist='' data-lianja-formitem-dialogbutton='false' data-lianja-formitem-autosuggest='' data-lianja-formitem-autosuggestheaders='' data-lianja-formitem-autosuggestfields='' data-lianja-formitem-autosuggestcolumn='0' data-lianja-formitem-type='field' data-lianja-controlsource='vt_customers.customertype' data-lianja-maxlength='1' data-lianja-readonly='false' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field4');return false;"  onMouseOver="Lianja.showControl('page1-section1-field4-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field4-inlineediticon');return false;"     ></div></td><td width='23px' style='min-width:0px;border-bottom:2px solid #f5f5f5;background-color:#f5f5f5 !important;'><div id='page1-section1-field4-inlineediticon' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field4');return false;"  onMouseOver="Lianja.showControl('page1-section1-field4-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field4-inlineediticon');return false;"   class='ui-lianja-inlineediticon' style="display:none;line-height:23px;max-height:23px;height:23px;width:23px;max-width:23px;min-width:0px;background-color:#f5f5f5 !important;"></div></td></tr></table><!-- end section formitem --><!-- start section formitem -->
+<table  width="100%" cellspacing="0" cellpadding="0" style=';' ><tr style='height:23px;max-height:23px;border-bottom:1px solid #ffffff;border-right:1px solid #ffffff;'><td style='border-bottom:2px solid #f9f9f9;width:160px;min-width:160px;max-width:160px;' align='right'><div id='page1-section1-field5-caption'  style="line-height:23px;height:23px;background-color:#f9f9f9;color:#000000;text-align:right;">Rowguid </div></td><td width='100%' style='border-bottom:2px solid #f5f5f5;white-space: nowrap;'><div title='Click to edit'  class='ui-lianja-inlineeditor ' style="white-space: nowrap;margin-left:4px;margin-right:4px;font-weight:bold;line-height:23px;height:23px;background-color:#f5f5f5;color:#000000;text-align:left;" id='page1-section1-field5'  data-lianja-formitem-choicelist='' data-lianja-formitem-dialogbutton='false' data-lianja-formitem-autosuggest='' data-lianja-formitem-autosuggestheaders='' data-lianja-formitem-autosuggestfields='' data-lianja-formitem-autosuggestcolumn='0' data-lianja-formitem-type='field' data-lianja-controlsource='vt_customers.rowguid' data-lianja-maxlength='36' data-lianja-readonly='false' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field5');return false;"  onMouseOver="Lianja.showControl('page1-section1-field5-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field5-inlineediticon');return false;"     ></div></td><td width='23px' style='min-width:0px;border-bottom:2px solid #f5f5f5;background-color:#f5f5f5 !important;'><div id='page1-section1-field5-inlineediticon' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field5');return false;"  onMouseOver="Lianja.showControl('page1-section1-field5-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field5-inlineediticon');return false;"   class='ui-lianja-inlineediticon' style="display:none;line-height:23px;max-height:23px;height:23px;width:23px;max-width:23px;min-width:0px;background-color:#f5f5f5 !important;"></div></td></tr></table><!-- end section formitem --><!-- start section formitem -->
+<table  width="100%" cellspacing="0" cellpadding="0" style=';' ><tr style='height:23px;max-height:23px;border-bottom:1px solid #ffffff;border-right:1px solid #ffffff;'><td style='border-bottom:2px solid #f9f9f9;width:160px;min-width:160px;max-width:160px;' align='right'><div id='page1-section1-field6-caption'  style="line-height:23px;height:23px;background-color:#f9f9f9;color:#000000;text-align:right;">Modifieddate </div></td><td width='100%' style='border-bottom:2px solid #f5f5f5;white-space: nowrap;'><div title='Click to edit'  class='ui-lianja-inlineeditor ' style="white-space: nowrap;margin-left:4px;margin-right:4px;font-weight:bold;line-height:23px;height:23px;background-color:#f5f5f5;color:#000000;text-align:left;" id='page1-section1-field6'  data-lianja-formitem-choicelist='' data-lianja-formitem-dialogbutton='false' data-lianja-formitem-autosuggest='' data-lianja-formitem-autosuggestheaders='' data-lianja-formitem-autosuggestfields='' data-lianja-formitem-autosuggestcolumn='0' data-lianja-formitem-type='field' data-lianja-controlsource='vt_customers.modifieddate' data-lianja-maxlength='8' data-lianja-readonly='false' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field6');return false;"  onMouseOver="Lianja.showControl('page1-section1-field6-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field6-inlineediticon');return false;"     ></div></td><td width='23px' style='min-width:0px;border-bottom:2px solid #f5f5f5;background-color:#f5f5f5 !important;'><div id='page1-section1-field6-inlineediticon' onClick="Lianja.editField(true,true,'page1','section1','page1-section1-field6');return false;"  onMouseOver="Lianja.showControl('page1-section1-field6-inlineediticon');return false;"  onMouseOut="Lianja.hideControl('page1-section1-field6-inlineediticon');return false;"   class='ui-lianja-inlineediticon' style="display:none;line-height:23px;max-height:23px;height:23px;width:23px;max-width:23px;min-width:0px;background-color:#f5f5f5 !important;"></div></td></tr></table><!-- end section formitem --><!-- end of section formitems -->
+<div class='ui-lianja-phonegap-hidden' id='page1-section1-sectionfooter' style='z-index:1;padding-left:4px;position:relative;left:0px;right:0px;height:20px;line-height:20px;min-height:20px;max-height:20px;background-color:#efefef;color:#333333;' data-lianja-footer="Row {recno()} of {reccount()}">Row {recno()} of {reccount()}</div></div>
+</div>
+<!-- end of section form -->
+</div>
+<!-- section end -->
+<!-- section start 1 -->
+<div id='page1-section2'   data-lianja-searchpanelheight='0' data-lianja-uistates='' data-lianja-contextmenu="" data-lianja-enabledonedit="false" data-lianja-orderby="" data-lianja-filter="" data-lianja-editable='false' data-lianja-uistates='' data-lianja-autoresize='true' data-lianja-gridlines='true' data-lianja-hideheader='false' data-lianja-navbar-height='48' data-lianja-query-form='false' data-lianja-stretchfixedheight='0' data-lianja-cascadedeletes='false' data-lianja-primarykey='actor_id' data-lianja-hidenavbar='false' data-lianja-section-pageid='page1' data-lianja-section-type='grid' data-lianja-section-searchfield='' data-lianja-section-searchfieldtype='' data-lianja-section-parentid='' data-lianja-section-parentkeytype='' data-lianja-section-parentkeyexpr='' data-lianja-section-childkeyexpr='' data-lianja-section-childlist='' data-lianja-section-accordion='false' data-lianja-section-accordion-stack='false' data-lianja-section-no-stretch='false' data-lianja-database='cloudlibtest' data-lianja-table='vt_actors'  data-inset='false' data-role='collapsible' data-theme='c' data-collapsed='false' data-corners='false' class=' lianja-ui-collapsible   ui-lianja-noicon ui-lianja-noicontext ui-lianja-ignoreclick    ui-lianja-scrollable ui-lianja-hidescrollbar ' style='color:#000000;background-color:#f9f9f9;overflow-x:hidden;overflow-y:hidden;color:#000000;background-color:#f9f9f9;  position:relative;width:100%;height:calc(100% - 48px);' data-lianja-autoheight='false' >
+<h2 id='page1-section2-sectionheader'  data-lianja-sectionid='page1-section2' style=''>MySQL Sakila actor table</h2><!-- section type grid -->
+<div id='page1-section2-container-outerframe' data-lianja-yoffset='0' style='background-color:#f9f9f9;width:100%;position:absolute;top:0px;bottom:0px;'>
+<div id='page1-section2-container-innerframe' data-lianja-height-adjustment='0' style='background-color:#f9f9f9;margin:0px;height:690px;margin-bottom:0px;position:relative;'><div id='page1-section2-gridcontainer-basecontainer' style='background-color:white;height:100%;width:100%;'><table id='page1-section2-gridcontainer' data-lianja-gridinlinemargin='5' data-lianja-gridrowheight='0px' data-lianja-gridinlinememos='false' data-lianja-gridinlineimageheight='0' data-lianja-gridinlineimagewidth='0' data-lianja-autoresize='true' data-lianja-autostretch='true' data-lianja-gridlines='true' data-lianja-gridinlineimages='false' data-lianja-hideheaders='false' data-lianja-navbar-height='48' data-lianja-hideactionbar='false' data-lianja-pagination='false' data-lianja-infinite-scroll='false' data-lianja-grid-hyperlink-delegate='' data-lianja-readonly='false' data-lianja-sortable='false' data-lianja-row-dynamic-backcolor='' data-lianja-row-dynamic-forecolor='' data-lianja-grid-properties='Actor_id@=#ffffffff@=#000000ff@=ACTOR_ID@=@=@=@=@=false@=@=@=@=@=@=@=false@=@=@=true@=false@=Auto@=0@=false@=Custom@=false@=false@=@=@=false@=@=@=true@=true@=true@=true@=Always@=hidden:false@=@=0|First_name@=#ffffffff@=#000000ff@=FIRST_NAME@=@=@=@=@=false@=@=@=@=@=@=@=false@=@=@=true@=false@=Auto@=0@=false@=Custom@=false@=false@=@=@=false@=@=@=true@=true@=true@=true@=Always@=hidden:false@=@=0|Last_name@=#ffffffff@=#000000ff@=LAST_NAME@=@=@=@=@=false@=@=@=@=@=@=@=false@=@=@=true@=false@=Auto@=0@=false@=Custom@=false@=false@=@=@=false@=@=@=true@=true@=true@=true@=Always@=hidden:false@=@=0|Last_update@=#ffffffff@=#000000ff@=LAST_UPDATE@=@=@=@=@=false@=@=@=@=@=@=@=false@=@=@=true@=false@=Auto@=0@=false@=Custom@=false@=false@=@=@=false@=@=@=true@=true@=true@=true@=Always@=hidden:false@=@=0' data-lianja-grid-column-types='I,C,C,T' data-lianja-grid-column-widths='48,79,90,1004' style='margin-bottom:0px;background-color:white;width:100%;overflow:auto;'></table>
+</div></div>
+</div>
+</div>
+<!-- section end -->
+</div>
+<!-- mainpage content end -->
+<!-- navbar start -->
+<div id='page1-navbar' style='border:0;background-color:#333333;background-image:none;padding-bottom:0px;' data-tap-toggle='false' data-theme='a' data-role='footer' data-position='fixed' role='contentinfo' style='height:40px;' data-fullscreen='false' data-id='alwaysvisible'>
+<div class='ui-grid-lianja-navbar-mobile'>
+<span id='page1_navbutton_add' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=add');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-add-white' title='Add New Record'></a></span>
+<span id='page1_navbutton_delete' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=delete');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-delete-white' title='Delete Record'></a></span>
+<span id='page1_navbutton_refresh' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=refresh');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-refresh-white' title='Refresh Page'></a></span>
+<span id='page1_navbutton_first' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=first');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-first-white' title='First Record'></a></span>
+<span id='page1_navbutton_previous' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=previous');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-prev-white' title='Previous Record'></a></span>
+<span id='page1_navbutton_next' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=next');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-next-white' title='Next Record'></a></span>
+<span id='page1_navbutton_last' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=last');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-last-white' title='Last Record'></a></span>
+<span id='page1_navbutton_edit' class='ui-grid-lianja-navbutton48 ' align='center'><a onclick="Lianja.showDocument('page:page1?action=edit');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-edit-white' title='Edit Record'></a></span>
+<span id='page1_navbutton_save' class='ui-grid-lianja-navbutton48 ui-navbutton-disabled ' align='center'><a onclick="Lianja.showDocument('page:page1?action=save');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-save-white' title='Save Changes'></a></span>
+<span id='page1_navbutton_cancel' class='ui-grid-lianja-navbutton48 ui-navbutton-disabled ' align='center'><a onclick="Lianja.showDocument('page:page1?action=cancel');return false;" rel='external' data-ajax='false'  type='button' data-inline='true' data-role='button' data-theme='reset' data-iconpos='notext' class='app-theme-none ui-btn-icon-notext ui-icon-lianja-cancel-white' title='Undo Changes'></a></span>
+</div>
+</div>
+<!-- navbar end --></div>
+<!-- mainpage end -->
+<script>
+var lianja_datamap = {
+};
+
+Lianja.setDataMap(lianja_datamap);
+var lianja_iframemap = {
+};
+
+Lianja.setIframeMap(lianja_iframemap);
+</script>
+<script>
+var lianja_pagetransitionmap = {
+};
+
+Lianja.setPageTransitionMap(lianja_pagetransitionmap);
+</script>
+<script>
+Lianja.App.addPages('page1');
+Lianja.App.getPage('page1').addSections('section1,section2', 'form,grid');
+Lianja.App.getPage('page1').getSection('section1').addFormItems('field1,field2,field3,field4,field5,field6','N,N,C,C,C,T', 'form');
+</script>
+<script>
+Lianja.ready = false;
+Lianja.pendingsplitviews = [];</script>
+<script>
+$('#page1').on('pageshow', function(event) {
+    Lianja.loadPage('page1');
+});
+</script>
+<script>
+Lianja.createCustomUICode = function() {
+}
+
+
+Lianja.createCanvasSections = function() {
+}
+
+
+Lianja.createCustomSections = function() {
+}
+
+
+Lianja.createCustomGadgets = function() {
+}
+
+
+Lianja.App.delegates = [
+
+];
+
+
+Lianja.App.imports = [
+
+];
+Lianja.registerImports(Lianja.App.imports);
+
+Lianja.App.name = 'example_webvirtualtables';
+Lianja.App.targetui = 'web';
+Lianja.App.ostype = '';
+Lianja.App.buildmode = 'debug';
+Lianja.App.theme = 'default';
+Lianja.App.texttranslator = '';
+Lianja.App.libpath = '../../../library/';
+Lianja.App.fullscreen = true;
+Lianja.App.statusbarheight = 0;
+Lianja.App.database = 'cloudlibtest';
+Lianja.App.animationsenabled = true;
+Lianja.App.locale = 'en';
+Lianja.App.currency = '$';
+Lianja.App.point = '.';
+Lianja.App.separator = ',';
+Lianja.App.attributes['htmlEditor'] = 'Desktop';
+$(document).bind('ready', function () { 
+    Lianja.ready = true;
+    Lianja.resize();
+    Lianja.App.loginpage = '';
+    Lianja.App.homepage = '';
+    $('.mainbody').css('overflow-y', 'hidden');
+    $('.mainbody').css('overflow-x', 'hidden');
+    $('.mainbody').css('display', 'block');
+    if (Lianja.pendingsplitviews.length > 0) Lianja.setupSplitViews();
+    Lianja.createCustomUICode();
+    Lianja.createCanvasSections();
+    Lianja.createCustomSections();
+    Lianja.createCustomGadgets();
+    Lianja.bindDelegates();
+    Lianja.bindGestures();
+    Lianja.callDelegates('init');
+    Lianja.callDelegates('load');
+    Lianja.callDelegates('ready');
+    Lianja.callDelegates('resized');
+    if (Lianja.App.pendingloadPage.length > 0) {
+        Lianja.loadPage('page1', true);
+        Lianja.App.pendingloadPage = '';
+    } else {
+        Lianja.loadPage('page1', true);
+    }
+    Lianja.checkOrientationLayout();
+    Lianja.updateLoginPanel();
+    Lianja.loadIframes();
+    window.addEventListener('load', function() {
+        if (typeof FastClick !== 'undefined') FastClick.attach(document.body);
+    }, false);
+});
+Lianja.App.init();
+Lianja.App.initExtensions();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+QLineEdit {
+color: rgb(127,0,63);
+background-color: rgb(255, 255, 241); 
+selection-color: white; 
+margin-top: 2px; 
+selection-background-color: rgb(191, 31, 127); 
+border: 2px groove gray; 
+border-radius: 10px;
+opacity: 0; 
+padding: 2px 4px
+}
+

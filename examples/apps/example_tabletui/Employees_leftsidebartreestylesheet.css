@@ -1,0 +1,29 @@
+lianja_ui_tree{
+     show-decoration-selected: 1;
+     border: 0px solid white;
+     background: #f5f5f5;
+     border-right: 0px solid transparent;
+}
+lianja_ui_tree::item{
+     border-left: 3px solid transparent;
+     border-bottom: 1px solid white;
+     icon-size: 24px;
+     padding: 2px;
+     height: 40px;
+}
+lianja_ui_tree::item:hover{
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #cbdaf1);
+}
+lianja_ui_tree::item:first:selected{
+     border-left: 3px solid red;
+     background: #f9f9f9;
+     color: black;
+     background-origin: padding;
+}
+lianja_ui_tree::item:selected{
+     background: #f9f9f9;
+     color: black;
+     background-origin: padding;
+}
+
+

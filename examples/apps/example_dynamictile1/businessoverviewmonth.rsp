@@ -1,0 +1,94 @@
+<%@ Language=Recital %>
+
+<style>
+
+#DynamicTable table {  
+	border-collapse: collapse;
+	width: 100%; 
+}
+
+#DynamicTable td, th { 
+    text-align: center; 
+    border: 1px solid #fafafa; 
+    padding:2px 5px; 
+	font-size: 10pt;
+}
+
+#DynamicTable {
+    margin-bottom: 20px;
+}   
+    
+#DynamicTable caption {
+	margin: 0 0 1px; 
+	font-weight: bold; 
+	font-size: 10pt;
+}
+
+</style>
+
+<div style="margin: 3px;font-size:10px;" align="center">
+  <table id="DynamicTable" style="width:90%;">
+	<caption>Employee Sales by Year (US$m)<br><br></caption>
+	<thead>
+		<tr>
+			<td></td>
+			<th scope="col">2009</th>
+			<th scope="col">2010</th>
+			<th scope="col">2011</th>
+			<th scope="col">2012</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Barry</th>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+		</tr>
+		<tr>
+			<th scope="row">Yvonne</th>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+		</tr>
+		<tr>
+			<th scope="row">Chris</th>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+		</tr>
+		<tr>
+			<th scope="row">Hank</th>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+		</tr>
+		<tr>
+			<th scope="row">Thomas</th>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+		</tr>
+		<tr>
+			<th scope="row">Rolf</th>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+		</tr>
+		<tr>
+			<th scope="row">Phabio</th>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+			<td><%= tostring(int(max(10, rand(-1, .f.)%100)) ) %></td>
+		</tr>
+	</tbody>
+  </table>
+  <center>This dynamic tile is being refreshed every 5 seconds from an RSP page.<br>Time now is&nbsp;<%= time() %></center>
+</div>

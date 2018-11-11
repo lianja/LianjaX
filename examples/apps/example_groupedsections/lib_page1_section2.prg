@@ -1,0 +1,11 @@
+////////////////////////////////////////////////////////////////
+// Event delegate for 'expanded' event
+proc page1_section2_expanded()
+endproc
+
+
+////////////////////////////////////////////////////////////////
+// Event delegate for 'collapsed' event
+proc page1_section2_collapsed()
+	Lianja.get("orders").hide()
+endproc

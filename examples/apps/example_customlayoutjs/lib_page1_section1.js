@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////
+// Event delegate for 'ready' event
+function page1_section1_ready()
+{
+	// insert your code here
+};
+////////////////////////////////////////////////////////////////
+// Event delegate for 'init' event
+function page1_section1_init()
+{
+	// insert your code here
+};
+////////////////////////////////////////////////////////////////
+// Event delegate for 'ready' event
+function page1_section1_ready()
+{
+	// insert your code here
+};
