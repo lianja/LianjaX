@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>exercise</filename>
+<caption>Exercises</caption>
+<icon>:/images/template</icon>
+<category>Sports</category>
+<description>Table to store exercise information</description>
+</table>

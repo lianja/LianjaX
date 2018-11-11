@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<table>
+<filename>membertype</filename>
+<caption>Members types</caption>
+<icon>:/images/template</icon>
+<category>Contacts and People</category>
+<group>Members</group>
+<description>Table to store members types</description>
+</table>

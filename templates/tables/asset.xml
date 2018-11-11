@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<table>
+<filename>asset</filename>
+<caption>Assets</caption>
+<icon>:/images/template</icon>
+<category>Money</category>
+<group>Assets</group>
+<description>Table to store asset information</description>
+</table>

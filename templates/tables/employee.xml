@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>employee</filename>
+<caption>Employees</caption>
+<icon>:/images/template</icon>
+<category>Business</category>
+<description>Table to store employess information</description>
+</table>

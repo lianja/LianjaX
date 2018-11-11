@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>actor</filename>
+<caption>Actors</caption>
+<icon>:/images/template</icon>
+<category>Music and Movies</category>
+<description>Table to store actor information</description>
+</table>

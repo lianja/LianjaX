@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<table>
+<filename>expensecode</filename>
+<caption>Expense Codes</caption>
+<icon>:/images/template</icon>
+<category>Business</category>
+<group>Expenses</group>
+<description>Table to store expense codes</description>
+</table>

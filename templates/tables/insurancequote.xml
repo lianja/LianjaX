@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<table>
+<filename>insurancequote</filename>
+<caption>Insurance Quotes</caption>
+<icon>:/images/template</icon>
+<category>Money</category>
+<group>Insurance</group>
+<description>Table to store insurance quote information</description>
+</table>

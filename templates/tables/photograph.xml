@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>photograph</filename>
+<caption>Photographs</caption>
+<icon>:/images/template</icon>
+<category>Arts</category>
+<description>Table to store photograph information</description>
+</table>

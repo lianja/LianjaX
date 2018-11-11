@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<table>
+<filename>insurancetype</filename>
+<caption>Insurance Types</caption>
+<icon>:/images/template</icon>
+<category>Money</category>
+<group>Insurance</group>
+<description>Table to store insurance type information</description>
+</table>

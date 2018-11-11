@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>contact</filename>
+<caption>Contacts</caption>
+<icon>:/images/template</icon>
+<category>Contacts and People</category>
+<description>Table to store contacts</description>
+</table>

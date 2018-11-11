@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>product</filename>
+<caption>Products</caption>
+<icon>:/images/template</icon>
+<category>Business</category>
+<description>Table to store product information </description>
+</table>

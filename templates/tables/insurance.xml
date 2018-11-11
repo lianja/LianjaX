@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<table>
+<filename>insurance</filename>
+<caption>Insurance</caption>
+<icon>:/images/template</icon>
+<category>Money</category>
+<group>Insurance</group>
+<description>Table to store insurance policy information</description>
+</table>

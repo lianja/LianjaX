@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>donor</filename>
+<caption>Donors</caption>
+<icon>:/images/template</icon>
+<category>Events and Projects</category>
+<description>Table to store donors</description>
+</table>

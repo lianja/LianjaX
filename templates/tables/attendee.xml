@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<table>
+<filename>attendee</filename>
+<caption>Attendees</caption>
+<icon>:/images/template</icon>
+<category>Events Planning</category>
+<description>Table to store event attendees</description>
+</table>
