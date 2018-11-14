@@ -1,6 +1,11 @@
 {
-	"name" : "lianjademo",
-	"author" : "Lianja Inc",
-	"version", "1.0",
-	"appguid" : ""
+	"name" 		: "lianjademo",
+	"category"		: "Examples",
+	"author" 		: "Lianja Inc",
+	"version"		: "1.0",
+	"appid" 		: "XXXX-XXXX-XXXX-XXXX",
+	"tileicon"		: "base64-encoded-string",
+	"tilecolor" 	: "green",
+	"tilecaption" 	: "lianjademo test",
+	"appdatetime"	: "201811141210"
 }
