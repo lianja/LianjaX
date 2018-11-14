@@ -1,9 +1,9 @@
 {
-	"name" 		: "lianjademo",
+	"name" 			: "lianjademo",
 	"category"		: "Examples",
 	"author" 		: "Lianja Inc",
 	"version"		: "1.0",
-	"appid" 		: "XXXX-XXXX-XXXX-XXXX",
+	"appid" 		: "d4d0ebf3-47b3-48b5-b295-7c92a36ea66a",
 	"tileicon"		: "base64-encoded-string",
 	"tilecolor" 	: "green",
 	"tilecaption" 	: "lianjademo test",
