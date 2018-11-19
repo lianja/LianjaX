@@ -1,8 +1,8 @@
 {
-"name" 			: "lianjarepotest",
+"name" 		: "lianjarepotest",
 "category"		: "Starter Apps",
 "author" 		: "LianjaDev",
-"description"	: "This is a simple example App.",
+"description"	: "<b>Whats new</b><br>This is a simple example App description.",
 "version"		: "1.0",
 "caption" 		: "Lianja Test App v1.0"
 }
