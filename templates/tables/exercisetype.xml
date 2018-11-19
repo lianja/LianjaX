@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>exercisetype</filename>
-<caption>Exercise Types</caption>
-<icon>:/images/template</icon>
-<category>Sports</category>
-<description>Table to store your exercise types</description>
-</table>

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>campaign</filename>
-<caption>Campaign</caption>
-<icon>:/images/template</icon>
-<category>Events and Projects</category>
-<description>Table to store campaigns</description>
-</table>

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>depreciation</filename>
-<caption>Depreciation</caption>
-<icon>:/images/template</icon>
-<category>Business</category>
-<description>Table to store Depreciation</description>
-</table>

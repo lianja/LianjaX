@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>winelist</filename>
-<caption>Wine List</caption>
-<icon>:/images/template</icon>
-<category>Cooking, Food and Wine</category>
-<group>Wine</group>
-<description>Table to store a wine list</description>
-</table>

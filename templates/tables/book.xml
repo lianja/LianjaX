@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>book</filename>
-<caption>Books</caption>
-<icon>:/images/template</icon>
-<category>Arts</category>
-<description>Table to store books</description>
-</table>

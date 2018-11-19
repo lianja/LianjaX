@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>accounttype</filename>
-<caption>Account Types</caption>
-<icon>:/images/template</icon>
-<category>Business</category>
-<group></group>
-<description>Table to store account type information</description>
-</table>

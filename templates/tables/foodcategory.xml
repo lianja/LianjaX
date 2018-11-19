@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>foodcategory</filename>
-<caption>Food Categories</caption>
-<icon>:/images/template</icon>
-<category>Cooking, Food and Wine</category>
-<description>Table to store food categories</description>
-</table>

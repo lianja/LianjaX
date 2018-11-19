@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>ingredient</filename>
-<caption>Recipe Ingredients</caption>
-<icon>:/images/template</icon>
-<category>Cooking, Food and Wine</category>
-<description>Table to store recipe ingrediends</description>
-</table>

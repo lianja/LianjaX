@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>programtype</filename>
-<caption>Program Types</caption>
-<icon>:/images/template</icon>
-<category>Music and Movies</category>
-<description>Table to store program types</description>
-</table>

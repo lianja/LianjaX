@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>feeschedule</filename>
-<caption>Event Fees</caption>
-<icon>:/images/template</icon>
-<category>Events and Projects</category>
-<description>Table to store your event fee schedule</description>
-</table>

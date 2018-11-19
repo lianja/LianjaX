@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>insureditem</filename>
-<caption>Insured Items</caption>
-<icon>:/images/template</icon>
-<category>Money</category>
-<group>Insurance</group>
-<description>Table to store insuredc item information</description>
-</table>

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>event</filename>
-<caption>Events</caption>
-<icon>:/images/template</icon>
-<category>Events and Projects</category>
-<description>Table to store event information</description>
-</table>

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>winepurchase</filename>
-<caption>Wine Purchases</caption>
-<icon>:/images/template</icon>
-<category>Cooking, Food and Wine</category>
-<group>Wine</group>
-<description>Table to store wine purchases</description>
-</table>

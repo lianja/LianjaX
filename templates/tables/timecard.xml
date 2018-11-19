@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>timecard</filename>
-<caption>Timecards</caption>
-<icon>:/images/template</icon>
-<category>Business</category>
-<group>Timecard</group>
-<description>Table to store timecard information</description>
-</table>

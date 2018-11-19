@@ -1,6 +1,0 @@
-////////////////////////////////////////////////////////////////////////////////
-function myButtonClick(btntext, value)
-{
-	messageBox("You clicked the '"+btntext+"' button for '"+value+"'");
-}
-

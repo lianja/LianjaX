@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>recordingartist</filename>
-<caption>Recording Artists</caption>
-<icon>:/images/template</icon>
-<category>Music and Movies</category>
-<description>Table to store recording artists</description>
-</table>

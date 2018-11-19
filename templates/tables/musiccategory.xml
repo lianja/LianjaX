@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>musiccategory</filename>
-<caption>Music Categories</caption>
-<icon>:/images/template</icon>
-<category>Music and Movies</category>
-<description>Table to store your music categories</description>
-</table>

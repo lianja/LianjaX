@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>recording</filename>
-<caption>Recordings</caption>
-<icon>:/images/template</icon>
-<category>Music and Movies</category>
-<description>Table to store recording information</description>
-</table>

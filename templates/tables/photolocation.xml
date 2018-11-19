@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<table>
-<filename>photolocation</filename>
-<caption>Photo Locations</caption>
-<icon>:/images/template</icon>
-<category>Arts</category>
-<description>Table to store photograph locations</description>
-</table>
