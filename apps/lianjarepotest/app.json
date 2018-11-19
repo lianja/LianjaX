@@ -6,5 +6,5 @@
 "version"		: "1.0",
 "caption" 		: "Lianja Test App",
 "subcaption"	: "This is a test subcaption",
-"roles"		" "*"
+"roles"			: "*"
 }
