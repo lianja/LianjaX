@@ -2,7 +2,9 @@
 "name" 		: "lianjarepotest",
 "category"		: "Starter Apps",
 "author" 		: "LianjaDev",
-"description"	: "What's New<br>This is a simple example App description.",
+"description"	: "This update contains stability and performance improvements.",
 "version"		: "1.0",
-"caption" 		: "Lianja Test App v1.0"
+"caption" 		: "Lianja Test App",
+"subcaption"	: "This is a test subcaption",
+"roles"		" "*"
 }
