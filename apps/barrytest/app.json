@@ -1,0 +1,11 @@
+{
+"name" 		    : "barrytest",
+"category"		: "Testing",
+"author" 		    : "LianjaDev",
+"description"	    : "",
+"version"		    : "",
+"caption" 		: "This is the caption",
+"subcaption"	    : "This is a sub-caption",
+"roles"			: "*",
+"autoupdate"      : "false"
+}
