@@ -1,1 +1,11 @@
-{"name" 		    : "lianjarepotest2","category"		: "","author" 		    : "","description"	    : "","version"		    : "","caption" 		: "","subcaption"	    : "","roles"			: "","autoupdate"      : "false"}
+{
+"name" 		    : "lianjarepotest2",
+"category"		: "",
+"author" 		    : "",
+"description"	    : "",
+"version"		    : "",
+"caption" 		: "",
+"subcaption"	    : "",
+"roles"			: "",
+"autoupdate"      : "false"
+}
