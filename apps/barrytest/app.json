@@ -3,7 +3,7 @@
 "category"		: "testing",
 "author" 		: "LianjaDev",
 "description"	: "This is a test package",
-"version"		: "1",
+"version"		: "1.0",
 "caption" 		: "Lianjademo test",
 "subcaption"	    : "test",
 "roles"			: "*"
