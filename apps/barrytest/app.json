@@ -1,9 +1,9 @@
 {
 "name" 		    : "barrytest",
 "category"		: "testing",
-"author" 		    : "LianjaDev",
-"description"	    : "This is a test package",
-"version"		    : "1",
+"author" 		: "LianjaDev",
+"description"	: "This is a test package",
+"version"		: "1",
 "caption" 		: "Lianjademo test",
 "subcaption"	    : "test",
 "roles"			: "*"
